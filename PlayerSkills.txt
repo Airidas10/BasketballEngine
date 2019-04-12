@@ -1,0 +1,62 @@
+General:
+
+First Name
+Last Name
+Nationality?
+Height
+Weight
+Age (store as DOB)
+Position (where he's the best?)
+
+
+
+Athletic:
+
+Jump ? 
+Speed
+Quickness
+Strength
+Stamina
+Hustle
+Durability (injuries...)
+
+
+
+Rebounding:
+
+Offensive rebounding positioning
+Defensive rebounding positioning
+Boxout (OREB vs DREB who gets reb. (DREB is easier). Different weights by position. If good boxouter, negates most of positioning advantage.)
+
+
+
+Defense:
+
+Help defense
+Shot contest
+Stealing
+Blocking
+Fouling
+(Inside positioning / Outside positioning)?
+
+
+
+Offense:
+
+Dunk (need?)
+Finishing
+Mid range shot
+Three point shot
+Free throws
+Post-up (?)
+Ball handling
+Passing (split up into accuracy and timing?)
+Off-ball-movement
+
+
+
+
+
+
+Some special attributes?
+Mental aspect? (Clutch, etc...)
