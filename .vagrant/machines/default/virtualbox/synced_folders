@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/macbook/Python/Basketball","disabled":false,"__vagrantfile":true}}}
+{"virtualbox":{"/bootstrap_files":{"guestpath":"/bootstrap_files","hostpath":"/Users/macbook/Python/Basketball/bootstrap_files","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/macbook/Python/Basketball","disabled":false,"__vagrantfile":true}}}

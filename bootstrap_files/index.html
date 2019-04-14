@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<title>Vagrant Default</title>
+
+	<!-- Included CSS Files (Uncompressed) -->
+	<!--
+	<link rel="stylesheet" href="/stylesheets/foundation.css">
+	-->
+
+	<!-- Included CSS Files (Compressed) -->
+	<link href='http://fonts.googleapis.com/css?family=Dosis:400,500' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="/stylesheets/app.css">
+
+	<style>
+	<!--
+
+		body {
+			background-color: #25aae1;
+		}
+		body, h1, h2, h3, h4, h5, p { font-family: 'Dosis', sans-serif; font-weight: 400; color: #4d555a; }
+		.fullScreen{
+			position: absolute;
+			top: 0; bottom: 0; right: 0; left: 0;
+		}
+		.centerEverything {
+			text-align: center;
+			top: 50%;
+			position: absolute;
+			left: 0; right: 0;
+			height: 1px;
+			overflow: visible;
+		}
+		.notRight {
+			position: relative;
+			top: 0;
+			-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+			transform: translateY(-50%);
+			border: 1px solid #25aae1;
+		}
+		.notRight h2 {
+			color: white;
+			font-size: 38px;
+		}
+
+		.server {
+			color: white;
+			font-size: small;
+			position: relative;
+			bottom: 0;
+		}
+
+	-->
+	</style>
+
+</head>
+<body>
+
+<div class="fullScreen">
+	<div class="centerEverything">
+		<div class="notRight">
+			<h2>Vagrant Default Homepage</h2>
+				<p class="server"><?php echo $_ENV['HOSTNAME'] ?></p>
+		</div>
+	</div>
+</div>	
+
+</body>
+</html>
