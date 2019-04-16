@@ -11,8 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'TacticsController@index');
 
-Route::get('/test', 'GameEngineController@callPython');
+Route::post('/start_game', 'GameEngineController@startGame');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
